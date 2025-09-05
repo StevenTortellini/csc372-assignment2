@@ -1,0 +1,82 @@
+
+
+
+body {
+    margin: 0;
+    font:  20px sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333; /* softer color on eyes */
+}
+
+/* Header parent child relations used will select any child in parent element */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 37px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 20px ;
+   
+}
+
+/* Sections  */
+section { 
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd; /* each section with a line seperating title and content */
+    padding-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #2980b9; /* a nice blue color not the ugly default link */
+    text-decoration: none; /* underline doesnt show when not hovered*/
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styling */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px; /* slightly rounded corners */
+    
+}
+
+/* List styling */
+ul {
+    padding-left: 20px;
+}
+
+ li {
+    margin-bottom: 8px; /* space between list items */
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

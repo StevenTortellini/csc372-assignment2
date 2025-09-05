@@ -1,0 +1,47 @@
+/* General Body Styling */
+body {
+    background-color: #ffffff; /* white background */
+    color: #404040; /* dark gray text */
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+/* Main Heading */
+header h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #A4A400; /* heading color */
+}
+
+/* Other Headings  */
+h2, h3 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #A4A400; /* heading color */
+}
+
+/* Links */
+a {
+    color: #A4A400;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Blockquote / Testimonial */
+blockquote {
+    font-style: italic;
+    background-color: #FFFFA8; /* light yellow */
+    padding: 10px 15px;
+    margin: 20px;
+    
+}
